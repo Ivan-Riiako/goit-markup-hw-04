@@ -37,35 +37,34 @@ background: var(--bg-body-color)
 a {
     text-decoration: none;
 }
-
+/* Head */
 .logo-studio:hover,
-.nav-studio:hover,
- .nav-portfolio:hover, 
-.nav-contacts:hover,
- .contact-maill:hover, 
-.contact-tell:hover,
+.nav-element:hover,
+.contacts .contact:hover, 
+
+/* FooTer */
 .adress-place:hover,
 .adress:hover,
 .footer-logo-studio:hover { 
     color: var(--link-active);
 } 
 
-.nav-contacts :visited {
-    color: var(--link-active);
-}
 
-
+/* Head */
 .logo-studio:focus,
-.nav-studio:focus,
-.nav-portfolio:focus,
-.nav-contacts:focus,
-.contact-maill:focus,
-.contact-tell:focus,
+.nav-element:focus,
+.contacts .contact:focus,
+/* FooTer */
 .adress-place:focus,
 .adress:focus,
 .footer-logo-studio:focus {
 color: var(--link-active);
 }
+
+.nav-list .current{
+    color:var(--link-active) ;
+}
+
 
 :root{
     --logo-web-color:#2196F3;
@@ -105,10 +104,6 @@ color: var(--link-active);
 
     --space-card:30px;
 }
-.our{
-    background-image: url(../images/logo-compas.jpg);
-    background-repeat: repeat;
-}
 /* --------------Header --------------*/
 .container {
     width: 1200px;
@@ -123,7 +118,9 @@ padding-bottom: 94px;
 }
 .head {
 border-bottom: 1px solid var(--nav-line);
-padding: 32px 15px;
+padding-bottom: 25px;
+padding-top: 24px;
+
 
 }
 
@@ -176,7 +173,6 @@ align-items:center;
     margin-left: 0;
 }
 
-
 /* --------------CONTACTS --------------*/
 .contacts {
 display: flex;
@@ -184,7 +180,7 @@ margin-left: auto;
 /* grid-gap: 30px; */
 }
 
-.contacts  .contact{
+.contacts .contact{
     
     font-weight: 500;
     font-size: 14px;
@@ -215,7 +211,7 @@ margin-left: 30px;
     grid-gap: 8px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .button-portfolio{
     width: auto;
@@ -258,7 +254,7 @@ width: 100%;
 
 .project-card{
 width: calc((100%/3)-(2*var(--space-card)));
-border-bottom: 1px solid var(--project-card-border) ;
+/* border: 1px solid var(--project-card-border) ; */
 /* outline:1px solid var(--project-card-border); */
 margin-left: var(--space-card);
 margin-bottom: var(--space-card);
@@ -270,14 +266,24 @@ margin-bottom: var(--space-card);
     margin-bottom: 0;
 }
 
+.card-text{
+padding-top: 20px;
+padding-bottom:20px ;
+padding-left: 24px;
+padding-right:24px ;
+
+border-left:1px solid var(--project-card-border) ;
+border-right: 1px solid var(--project-card-border);
+border-bottom: 1px solid var(--project-card-border);
+}
+
+
 .project-heading{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--project-card-h);
-padding-left: 24px;
-margin: 20px 0 4px 0;
 }
 .project-descriotion{
 font-weight: 400;
@@ -285,8 +291,6 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--project-card-dsk);
-padding-left: 24px;
-margin: 4px 0 20px 0;
 }
 
 
@@ -296,7 +300,6 @@ margin: 4px 0 20px 0;
 background-color:  var(--bg-hero-color);
 padding: 200px 0;
 text-align: center;
-background-image: url(../images/hero-fon-min.jpg);
 
 }
 
@@ -307,7 +310,9 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--h-hero-color);
-margin: 0;
+width: 696px;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 30px;
 }
 
@@ -317,10 +322,10 @@ margin-bottom: 30px;
 .button {
 border-radius: 4px;
 min-width: 240px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
 padding: 10px 35.6px;
 background: var(--button-color);
-
+border: none;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -380,7 +385,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 margin: 0;
-margin-top: 30px;
 margin-bottom: 10px;
 text-transform: uppercase;
 color: var(--feature-list-h);
@@ -499,11 +503,7 @@ margin-left: var(--space-card);
     margin: 0;
 }
 
-/* OUR CLIENTS */
 
-.clients-list{
-    display: flex;
-}
 
 /* -------------FOOTER-------------- */
 
@@ -534,6 +534,16 @@ font-family: 'Raleway';
     color: var(--logo-studio-lower);
 }
 
+.adress-list{
+    display: block;
+    margin-bottom: 9px;
+   height: 21px;
+    
+    
+}
+.adress-list:last-child{
+    margin-bottom: 0;
+}
 
 .adress-place{
 font-style: normal;

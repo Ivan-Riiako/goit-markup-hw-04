@@ -502,7 +502,15 @@ margin-left: var(--space-card);
     color: var(--team-dsk-color);
     margin: 0;
 }
+/* Our Clients */
 
+.header-clients{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
 /* -------------FOOTER-------------- */

@@ -105,6 +105,10 @@ color: var(--link-active);
 
     --space-card:30px;
 }
+.our{
+    background-image: url(../images/logo-compas.jpg);
+    background-repeat: repeat;
+}
 /* --------------Header --------------*/
 .container {
     width: 1200px;
@@ -292,6 +296,7 @@ margin: 4px 0 20px 0;
 background-color:  var(--bg-hero-color);
 padding: 200px 0;
 text-align: center;
+background-image: url(../images/hero-fon-min.jpg);
 
 }
 
@@ -375,6 +380,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 margin: 0;
+margin-top: 30px;
 margin-bottom: 10px;
 text-transform: uppercase;
 color: var(--feature-list-h);
@@ -493,7 +499,11 @@ margin-left: var(--space-card);
     margin: 0;
 }
 
+/* OUR CLIENTS */
 
+.clients-list{
+    display: flex;
+}
 
 /* -------------FOOTER-------------- */
 

@@ -300,7 +300,12 @@ color: var(--project-card-dsk);
 background-color:  var(--bg-hero-color);
 padding: 200px 0;
 text-align: center;
+
+/* Play with background */
 background-image: url(../images/hero-fon-min.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 

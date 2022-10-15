@@ -181,7 +181,6 @@ margin-left: auto;
 }
 
 .contacts .contact{
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -193,22 +192,34 @@ margin-left: auto;
 
 }
 
-.contacts .contact::before{
-    content: "";
+.li-contact::before{
+content: "";
 margin-right: 10px;
-display: block;
-width:10px;
-background-color: #000;
+
 
 }
-
+.li-contact:first-child::before {
+   
+    background-image: url(../images/icon-maill.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 16px;
+}
+.li-contact:last-child::before {
+   
+    background-image: url(../images/smartphone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10px;
+}
 
 
 .li-contact{
-margin-left: 30px;
+display: flex;
+margin-left: 50px;
 }
 .li-contact:first-child {
-    margin-left: 0;
+margin-left: 0;
 }
 
 /*---------- MAIN-----------*/
@@ -572,12 +583,42 @@ margin-left: var(--space-card);
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
-.clients-list{
+.container>.clients-list{
     display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
 }
 
+
+.client{
+    
+margin-right: 30px;
+border:1px solid #AFB1B8;
+border-radius: 4px;
+width: calc((100%/6)-(5*var(--space-card)));
+padding-right: 30px;
+padding-left: 30px;
+padding-top: 16px;
+padding-bottom: 16px;;
+}
+.client:last-child{
+    margin-right: 0;
+}
+
+.link-client{
+display: block;
+
+}
+
+.img-client{
+    display: block;
+}
 
 /* -------------FOOTER-------------- */
 

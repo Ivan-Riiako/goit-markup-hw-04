@@ -307,6 +307,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--project-card-h);
+margin-bottom: 4px;
 }
 .project-descriotion{
 font-weight: 400;

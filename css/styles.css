@@ -189,58 +189,65 @@ margin-left: auto;
 
     text-decoration: none;
     color: var(--contacts-color);
-
-
 }
 
-.li-contact::before{
-content: "";
-    display: block;
-    margin-right: 10px;
-   
+.li-contact {
+    display: flex;
+    margin-left: 50px;
 }
 
-
-.li-contact:first-child::before{
-
-    background-image: url(../images/icon-maill.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 16px;
-}
-.li-contact:first-child:hover::before {
-    background-image: url(../images/icon-maill-hover.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 16px;
-}
-
-
-.li-contact:last-child::before{
-
-    background-image: url(../images/smartphone.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 10px;
-    height: 16px;
-}
-
-.li-contact:last-child:hover::before {
-
-    background-image: url(../images/smartphone-hover.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 10px;
-    height: 16px;
-}
-
-.li-contact{
-display: flex;
-margin-left: 50px;
-}
 .li-contact:first-child {
-margin-left: 0;
+    margin-left: 0;
 }
+
+
+/* .li-contact::before{ */
+/* content: ""; */
+    /* display: block; */
+    /* margin-right: 10px; */
+/*     */
+/* } */
+/*  */
+/*  */
+/* .li-contact:first-child::before{ */
+/*  */
+    /* background-image: url(../images/icon-maill.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 16px; */
+/* } */
+/* .li-contact:first-child:hover::before { */
+    /* background-image: url(../images/icon-maill-hover.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 16px; */
+/* } */
+/*  */
+/*  */
+/* .li-contact:last-child::before{ */
+/*  */
+    /* background-image: url(../images/smartphone.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 10px; */
+    /* height: 16px; */
+/* } */
+/*  */
+/* .li-contact:last-child:hover::before { */
+/*  */
+    /* background-image: url(../images/smartphone-hover.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* width: 10px; */
+    /* height: 16px; */
+/* } */
+
+
+
+
+
+
+
 
 /*---------- MAIN-----------*/
 

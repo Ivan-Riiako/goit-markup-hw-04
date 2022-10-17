@@ -201,54 +201,6 @@ margin-left: auto;
 }
 
 
-/* .li-contact::before{ */
-/* content: ""; */
-    /* display: block; */
-    /* margin-right: 10px; */
-/*     */
-/* } */
-/*  */
-/*  */
-/* .li-contact:first-child::before{ */
-/*  */
-    /* background-image: url(../images/icon-maill.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* width: 16px; */
-/* } */
-/* .li-contact:first-child:hover::before { */
-    /* background-image: url(../images/icon-maill-hover.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* width: 16px; */
-/* } */
-/*  */
-/*  */
-/* .li-contact:last-child::before{ */
-/*  */
-    /* background-image: url(../images/smartphone.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* width: 10px; */
-    /* height: 16px; */
-/* } */
-/*  */
-/* .li-contact:last-child:hover::before { */
-/*  */
-    /* background-image: url(../images/smartphone-hover.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* width: 10px; */
-    /* height: 16px; */
-/* } */
-
-
-
-
-
-
-
-
 /*---------- MAIN-----------*/
 
 /* Section PORTFOLIO --*/
@@ -437,48 +389,6 @@ display: flex;
 .feature-card:first-child{
     margin-left: 0;
 }
-
-/* .feature-card::before { */
-    /* content: ""; */
-/*      */
-    /* display: block; */
-    /* height: 120px; */
-    outline: 1px solid blueviolet;
-/*  */
-    /* margin-bottom: 30px; */
-    /* border-radius: 4px; */
-    /* background-color: #F5F4FA; */
-/* } */
-/*  */
-/* .feature-card:first-child::before{ */
-/*     */
-    /* background-image: url(../images/antenna.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 70px; */
-    /* background-position: center; */
-/* } */
-/* .feature-card:nth-child(2)::before { */
-/*      */
-    /* background-image: url(../images/clock.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 70px; */
-    /* background-position: center; */
-/* } */
-/* .feature-card:nth-child(3)::before { */
-/*      */
-    /* background-image: url(../images/diagram.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 70px; */
-    /* background-position: center; */
-/* } */
-/* .feature-card:last-child::before { */
-/*      */
-    /* background-image: url(../images/astronaut.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 70px; */
-    /* background-position: center; */
-/* } */
-
 
 .feature-list-heading{
 font-weight: 700;

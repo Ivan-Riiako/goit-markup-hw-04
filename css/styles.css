@@ -40,7 +40,6 @@ a {
 /* Head */
 .logo-studio:hover,
 .nav-element:hover,
-.contacts .contact:hover, 
 
 /* FooTer */
 .adress-place:hover,
@@ -48,6 +47,10 @@ a {
 .footer-logo-studio:hover { 
     color: var(--link-active);
 } 
+.contacts .contact:hover{
+    color: var(--link-active);
+    fill: var(--link-active);
+}
 
 
 /* Head */
@@ -191,6 +194,11 @@ margin-left: auto;
     color: var(--contacts-color);
 }
 
+.icon-maill{
+    height: 12px;
+    width: 16px;
+    fill: inherit;
+}
 .li-contact {
     display: flex;
     margin-left: 50px;

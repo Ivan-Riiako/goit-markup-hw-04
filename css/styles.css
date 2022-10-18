@@ -208,14 +208,14 @@ align-items: center;
 }
 
 .icon-maill{
-    height: 12px;
-    width: 16px;
-    fill: inherit;
-    margin-right: 10px;
+/* height: 12px; */
+/* width: 16px; */
+fill: inherit;
+margin-right: 10px;
 }
 .icon-tell{
-    height: 16px;
-width: 10px;
+/* height: 16px; */
+/* width: 10px; */
 fill: inherit;
 margin-right: 10px;
 }

@@ -48,11 +48,7 @@ a {
 } 
 
 
-.contacts .contact:hover {
-    color: var(--link-active);
-    fill: var(--link-active);
-}
-.contacts>.contact:focus{
+.contacts .contact:hover,.contacts .contact:focus {
     color: var(--link-active);
     fill: var(--link-active);
 }
@@ -593,7 +589,7 @@ border-radius: 50%;
 fill: var(--icon-color);
 }
 
-.social-li>a:hover{
+.social-li>a:hover,.social-li>a:focus{
 background-color:var(--link-active) ;
 fill: #fff;
 }
@@ -649,11 +645,13 @@ margin-right: 30px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
-.link-client:hover{
+.link-client:hover,.link-client:focus{
    
     fill:var(--link-active);
     outline:1px solid var(--link-active);
 }
+
+
 
 
 .client-container{

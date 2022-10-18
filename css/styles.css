@@ -343,8 +343,9 @@ background-color: #AFB1B8;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero-fon-min.jpg) ;
 
 /* background-attachment: fixed; */
+background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 1600px auto;
 
 
 }
@@ -429,7 +430,7 @@ display: flex;
     margin-left: 0;
 }
 
-.bord-icon-feature {
+.bord-feature {
     height: 120px;
     padding-left: 100px;
     padding-right: 100px;
@@ -442,14 +443,12 @@ display: flex;
     background-color: var(--bg-feature-color);
 }
 
-.icon-feature {
-    display: block;
-    
-    
-    height: 70px;
-    width: 70px;
+/* .icon-feature { */
+    /* display: block; */
+    /* height: 70px; */
+    /* width: 70px; */
 
-}
+/* } */
 .feature-list-heading{
 font-weight: 700;
 font-size: 14px;
@@ -628,41 +627,49 @@ fill: #fff;
 
 
 .clients-list>.client{
-
+display: block;
 width: calc((100%/6)-(5*var(--space-card)));
 margin-right: 30px;
 }
-.link-client{
-    display: block;
-    border: 1px solid var(--icon-color);
-    fill:var(--icon-color) ;
-        border-radius: 4px;
-        padding-right: 32px;
-        padding-left: 32px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        align-items: center;
-}
-.link-client:hover{
-    fill:var(--link-active);
-    border:1px solid var(--link-active);
-}
-
-
-.clients-list>.client:last-child{
+.clients-list>.client:last-child {
     margin-right: 0;
 }
 
+.link-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.icon-client{
-    fill: inherit;
-    height:60px ;
-    width: 106px;
-    
+    outline: 1px solid var(--icon-color);
+    fill:var(--icon-color) ;
+    border-radius: 4px;
+
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
-.icon-client> use{
-    height: 80%;
-    width: 80%;
+.link-client:hover{
+   
+    fill:var(--link-active);
+    outline:1px solid var(--link-active);
+}
+
+
+.client-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 106px;
+}
+
+
+
+
+
+.icon-clien{
+    height: 60px;
 }
 
 /* -------------FOOTER-------------- */

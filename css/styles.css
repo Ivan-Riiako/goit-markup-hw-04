@@ -627,8 +627,10 @@ fill: #fff;
 .container>.clients-list{
     display: flex;
     justify-content: center;
+   
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 
@@ -636,6 +638,7 @@ fill: #fff;
 display: block;
 width: calc((100%/6)-(5*var(--space-card)));
 margin-right: 30px;
+height: 92px;
 }
 .clients-list>.client:last-child {
     margin-right: 0;
@@ -650,10 +653,6 @@ margin-right: 30px;
     fill:var(--icon-color) ;
     border-radius: 4px;
 
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 .link-client:hover,.link-client:focus{
    

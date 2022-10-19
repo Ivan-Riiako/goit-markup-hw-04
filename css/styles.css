@@ -626,8 +626,8 @@ fill: #fff;
 
 .container>.clients-list{
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
    
@@ -637,19 +637,21 @@ fill: #fff;
 .clients-list>.client{
 display: block;
 width: calc((100%/6)-(5*var(--space-card)));
-margin-right: 30px;
-height: 92px;
+/* margin-right: 30px; */
+
 }
-.clients-list>.client:last-child {
-    margin-right: 0;
-}
+/* .clients-list>.client:last-child { */
+    /* margin-right: 0; */
+/* } */
 
 .link-client{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 92px;
+    width: 170px;
 
-    outline: 1px solid var(--icon-color);
+    border: 1px solid var(--icon-color);
     fill:var(--icon-color) ;
     border-radius: 4px;
 

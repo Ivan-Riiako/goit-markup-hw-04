@@ -427,11 +427,10 @@ display: flex;
 }
 
 .bord-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 120px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
 
     margin-bottom: 30px;
 

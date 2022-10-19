@@ -192,12 +192,13 @@ margin-left: auto;
 
 .contacts .contact{
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-align-items: center;
     text-decoration: none;
     color: var(--contacts-color);
     fill: var(--contacts-color);
